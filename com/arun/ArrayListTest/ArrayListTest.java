@@ -22,6 +22,7 @@ public class ArrayListTest {
         list.forEach(System.out::println);
         System.out.println("----------------");
 
+        // using lambda
         list.forEach(e->{
             System.out.println(e);
         });
